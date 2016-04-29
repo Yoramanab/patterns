@@ -8,6 +8,7 @@ import java.util.ArrayList;
 public class Publisher implements InterfacePublisher {
 
     private ArrayList<Subscriber> listenersList = new ArrayList<>();
+    private String massage;
 
     @Override
     public ArrayList<Subscriber> getListeners() {
@@ -32,7 +33,7 @@ public class Publisher implements InterfacePublisher {
     }
 
     @Override
-    public void notifySubscribers(String massage) {
+    public void notifySubscribers() {
         for (Subscriber subscriber : listenersList) {
             subscriber.doAction(massage);
         }
@@ -41,7 +42,8 @@ public class Publisher implements InterfacePublisher {
     public void createMassage(String massage) {
         if (massage != null) {
             System.out.println("HOT! new massage from Publisher: " + massage);
-            notifySubscribers(massage);
+            this.massage = massage;
+            notifySubscribers();
         }
     }
 }
