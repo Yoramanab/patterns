@@ -1,4 +1,4 @@
-package behavioral.observer;
+package behavioral.observer.wrong;
 
 /**
  * Created by Base on 28.04.2016.

@@ -1,27 +1,24 @@
 package behavioral.observer;
 
+import java.util.Observable;
+import java.util.Observer;
+
 /**
- * Created by Base on 28.04.2016.
+ * Created by Base on 29.04.2016.
  */
-public abstract class Subscriber {
+public class Subscriber implements Observer {
+    private String senderName;
+    private String subscriberName = "Man";
+    private String massage;
 
-    private String nameSubscriber;
-    private String countryFrom;
-
-    public Subscriber(String nameSubscriber, String countryFrom) {
-        this.nameSubscriber = nameSubscriber;
-        this.countryFrom = countryFrom;
+    @Override
+    public void update(Observable o, Object arg) {
+        this.senderName = ((Publisher) o).getName();
+        this.massage = (String) arg;
+        display();
     }
 
-    public String getCountryFrom() {
-        return countryFrom;
-    }
-
-    public String getNameSubscriber() {
-        return nameSubscriber;
-    }
-
-    void doAction(String massage) {
-
+    private void display() {
+        System.out.printf("info: %s; from: %s; subscriber: %s.", massage, senderName, subscriberName);
     }
 }

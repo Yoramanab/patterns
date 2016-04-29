@@ -1,4 +1,6 @@
-package behavioral.observer;
+package behavioral.observer.wrong;
+
+import behavioral.observer.wrong.Subscriber;
 
 import java.util.ArrayList;
 

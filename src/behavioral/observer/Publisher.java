@@ -1,49 +1,33 @@
 package behavioral.observer;
 
 import java.util.ArrayList;
+import java.util.Observable;
+import java.util.Observer;
 
 /**
- * Created by Base on 28.04.2016.
+ * Created by Base on 29.04.2016.
  */
-public class Publisher implements InterfacePublisher {
+public class Publisher extends Observable {
+    public String getName() {
+        return name;
+    }
+    public String name = "Pablo";
 
-    private ArrayList<Subscriber> listenersList = new ArrayList<>();
-    private String massage;
+    private ArrayList<Observer> observers = new ArrayList<>();
 
-    @Override
-    public ArrayList<Subscriber> getListeners() {
-        return listenersList;
+    public ArrayList<Observer> getObservers() {
+        return observers;
     }
 
     @Override
-    public void addListener(Subscriber listener) {
-        listenersList.add(listener);
+    public synchronized void addObserver(Observer o) {
+        observers.add(o);
     }
 
     @Override
-    public void removeListener(Subscriber listener) {
-        listenersList.remove(listener);
-        System.out.println(listener.getNameSubscriber() + " Unsubscribed =(");
-        ConsoleHelper.printDivider();
-    }
-
-    @Override
-    public void removeAllListeners() {
-        listenersList = new ArrayList<>();
-    }
-
-    @Override
-    public void notifySubscribers() {
-        for (Subscriber subscriber : listenersList) {
-            subscriber.doAction(massage);
-        }
-    }
-
-    public void createMassage(String massage) {
-        if (massage != null) {
-            System.out.println("HOT! new massage from Publisher: " + massage);
-            this.massage = massage;
-            notifySubscribers();
+    public void notifyObservers(Object arg) {
+        for (Observer observer : observers) {
+            observer.update(this, arg);
         }
     }
 }

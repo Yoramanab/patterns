@@ -1,4 +1,4 @@
-package behavioral.observer;
+package behavioral.observer.wrong;
 
 import java.io.BufferedReader;
 import java.io.IOException;
