@@ -10,6 +10,6 @@ public class Start {
 
         publisher.addObserver(subscriber);
 
-        publisher.notifyObservers("some massage for yuo");
+        publisher.notifyObservers("Hello World!");
     }
 }

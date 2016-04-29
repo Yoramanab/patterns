@@ -7,27 +7,18 @@ import java.util.Observer;
 /**
  * Created by Base on 29.04.2016.
  */
+
 public class Publisher extends Observable {
     public String getName() {
         return name;
     }
-    public String name = "Pablo";
-
-    private ArrayList<Observer> observers = new ArrayList<>();
-
-    public ArrayList<Observer> getObservers() {
-        return observers;
-    }
-
-    @Override
-    public synchronized void addObserver(Observer o) {
-        observers.add(o);
-    }
+    private String name = "Pablo";
 
     @Override
     public void notifyObservers(Object arg) {
-        for (Observer observer : observers) {
-            observer.update(this, arg);
-        }
+        System.out.println("start sending massage...");
+
+        super.setChanged();
+        super.notifyObservers(arg);
     }
 }
