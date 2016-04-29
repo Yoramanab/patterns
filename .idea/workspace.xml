@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2251c866-e049-4837-814a-36c123fe144c" name="Default" comment=" Basic design patterns">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/behavioral/observer/SubscriberOne.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/behavioral/observer/SubscriberTwo.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/behavioral/observer/InterfaceSubscriber.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/behavioral/observer/Subscriber2.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Patterns/behavioral/observer/InterfacePublisher.class" afterPath="$PROJECT_DIR$/out/production/Patterns/behavioral/observer/InterfacePublisher.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Patterns/behavioral/observer/MainObserver.class" afterPath="$PROJECT_DIR$/out/production/Patterns/behavioral/observer/MainObserver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Patterns/behavioral/observer/Publisher.class" afterPath="$PROJECT_DIR$/out/production/Patterns/behavioral/observer/Publisher.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Patterns/behavioral/observer/readMe" afterPath="$PROJECT_DIR$/out/production/Patterns/behavioral/observer/readMe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/behavioral/observer/ConsoleHelper.java" afterPath="$PROJECT_DIR$/src/behavioral/observer/ConsoleHelper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/behavioral/observer/InterfacePublisher.java" afterPath="$PROJECT_DIR$/src/behavioral/observer/InterfacePublisher.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/behavioral/observer/MainObserver.java" afterPath="$PROJECT_DIR$/src/behavioral/observer/MainObserver.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/behavioral/observer/Publisher.java" afterPath="$PROJECT_DIR$/src/behavioral/observer/Publisher.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/behavioral/observer/readMe" afterPath="$PROJECT_DIR$/src/behavioral/observer/readMe" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/behavioral/observer/Subscriber1.java" afterPath="$PROJECT_DIR$/src/behavioral/observer/Subscriber.java" />
     </list>
     <ignored path="Patterns.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,11 +30,11 @@
       <file leaf-file-name="Publisher.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/behavioral/observer/Publisher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state relative-caret-position="765">
+              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding>
-                <element signature="e#720#721#0" expanded="true" />
-                <element signature="e#769#770#0" expanded="true" />
+                <element signature="e#748#749#0" expanded="true" />
+                <element signature="e#797#798#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,6 +58,16 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readMe" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behavioral/observer/readMe">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -103,8 +101,8 @@
       <file leaf-file-name="InterfacePublisher.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/behavioral/observer/InterfacePublisher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+            <state relative-caret-position="306">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -176,16 +174,16 @@
         <option value="$PROJECT_DIR$/src/behavioral/observer/Main.java" />
         <option value="$PROJECT_DIR$/src/behavioral/observer/Test.java" />
         <option value="$PROJECT_DIR$/src/behavioral/observer/Subscriber2.java" />
-        <option value="$PROJECT_DIR$/src/behavioral/observer/readMe" />
         <option value="$PROJECT_DIR$/src/behavioral/observer/InterfaceSubscriber.java" />
         <option value="$PROJECT_DIR$/src/behavioral/observer/Subscriber1.java" />
         <option value="$PROJECT_DIR$/src/behavioral/observer/SubscriberEuropa.java" />
-        <option value="$PROJECT_DIR$/src/behavioral/observer/InterfacePublisher.java" />
         <option value="$PROJECT_DIR$/src/behavioral/observer/SubscriberOne.java" />
         <option value="$PROJECT_DIR$/src/behavioral/observer/Subscriber.java" />
         <option value="$PROJECT_DIR$/src/behavioral/observer/SubscriberTwo.java" />
         <option value="$PROJECT_DIR$/src/behavioral/observer/MainObserver.java" />
         <option value="$PROJECT_DIR$/src/behavioral/observer/ConsoleHelper.java" />
+        <option value="$PROJECT_DIR$/src/behavioral/observer/readMe" />
+        <option value="$PROJECT_DIR$/src/behavioral/observer/InterfacePublisher.java" />
         <option value="$PROJECT_DIR$/src/behavioral/observer/Publisher.java" />
       </list>
     </option>
@@ -743,12 +741,12 @@
       <workItem from="1461833563441" duration="3874000" />
       <workItem from="1461842295271" duration="1390000" />
       <workItem from="1461843696033" duration="3383000" />
-      <workItem from="1461850337229" duration="5989000" />
+      <workItem from="1461850337229" duration="7112000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14636000" />
+    <option name="totallyTimeSpent" value="15759000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1010" extended-state="6" />
@@ -812,8 +810,8 @@
         <state relative-caret-position="357">
           <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
           <folding>
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#748#749#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -910,8 +908,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#748#749#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -998,8 +996,8 @@
         <state relative-caret-position="102">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#748#749#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1065,14 +1063,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/behavioral/observer/readMe">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/behavioral/observer/SubscriberOne.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1088,14 +1078,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/behavioral/observer/InterfacePublisher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
           <folding />
         </state>
       </provider>
@@ -1129,13 +1111,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral/observer/readMe">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral/observer/InterfacePublisher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/behavioral/observer/Publisher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="765">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#748#749#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
           </folding>
         </state>
       </provider>

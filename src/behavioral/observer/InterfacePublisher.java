@@ -14,5 +14,5 @@ public interface InterfacePublisher {
 
     void removeAllListeners();
 
-    void notifySubscribers(String massage);
+    void notifySubscribers();
 }
