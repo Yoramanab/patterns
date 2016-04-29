@@ -6,11 +6,11 @@ import java.util.ArrayList;
  * Created by Base on 28.04.2016.
  */
 public interface InterfacePublisher {
-    ArrayList<InterfaceSubscriber> getListeners();
+    ArrayList<Subscriber> getListeners();
 
-    void addListener(InterfaceSubscriber listener);
+    void addListener(Subscriber listener);
 
-    void removeListener(InterfaceSubscriber listener);
+    void removeListener(Subscriber listener);
 
     void removeAllListeners();
 

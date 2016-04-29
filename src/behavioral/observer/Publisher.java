@@ -7,21 +7,23 @@ import java.util.ArrayList;
  */
 public class Publisher implements InterfacePublisher {
 
-    private ArrayList<InterfaceSubscriber> listenersList = new ArrayList<>();
+    private ArrayList<Subscriber> listenersList = new ArrayList<>();
 
     @Override
-    public ArrayList<InterfaceSubscriber> getListeners() {
+    public ArrayList<Subscriber> getListeners() {
         return listenersList;
     }
 
     @Override
-    public void addListener(InterfaceSubscriber listener) {
+    public void addListener(Subscriber listener) {
         listenersList.add(listener);
     }
 
     @Override
-    public void removeListener(InterfaceSubscriber listener) {
+    public void removeListener(Subscriber listener) {
         listenersList.remove(listener);
+        System.out.println(listener.getNameSubscriber() + " Unsubscribed =(");
+        ConsoleHelper.printDivider();
     }
 
     @Override
@@ -31,10 +33,15 @@ public class Publisher implements InterfacePublisher {
 
     @Override
     public void notifySubscribers(String massage) {
-
+        for (Subscriber subscriber : listenersList) {
+            subscriber.doAction(massage);
+        }
     }
 
     public void createMassage(String massage) {
-        System.out.println("HOT! new massage from Publisher: " + massage);
+        if (massage != null) {
+            System.out.println("HOT! new massage from Publisher: " + massage);
+            notifySubscribers(massage);
+        }
     }
 }

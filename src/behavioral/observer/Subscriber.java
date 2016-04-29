@@ -3,11 +3,12 @@ package behavioral.observer;
 /**
  * Created by Base on 28.04.2016.
  */
-public class Subscriber2 implements InterfaceSubscriber {
+public abstract class Subscriber {
+
     private String nameSubscriber;
     private String countryFrom;
 
-    public Subscriber2(String nameSubscriber, String countryFrom) {
+    public Subscriber(String nameSubscriber, String countryFrom) {
         this.nameSubscriber = nameSubscriber;
         this.countryFrom = countryFrom;
     }
@@ -20,9 +21,7 @@ public class Subscriber2 implements InterfaceSubscriber {
         return nameSubscriber;
     }
 
-    @Override
-    public void doAction(String massage) {
-        System.out.println("\tIm subTWO, look at some interesting what happened in our world: ");
-        System.out.println("\t\t" + massage);
+    void doAction(String massage) {
+
     }
 }
