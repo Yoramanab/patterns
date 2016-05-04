@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9948de3c-1345-4c7c-82b5-012f64aa79a6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Pizza.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/creational/factory/StorePizza.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/creational/factory/fabrika/PizzaFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/creational/factory/pizza/Homemade.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/creational/factory/pizza/Pizza.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/creational/factory/pizza/Village.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Patterns/behavioral/observer/Publisher.class" afterPath="$PROJECT_DIR$/out/production/Patterns/behavioral/observer/Publisher.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Patterns/behavioral/observer/Start.class" afterPath="$PROJECT_DIR$/out/production/Patterns/behavioral/observer/Start.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/creational/factorymethod/FactoryMethod.java" afterPath="$PROJECT_DIR$/src/creational/factorymethod/FactoryMethod.java" />
-    </list>
+    <list default="true" id="9948de3c-1345-4c7c-82b5-012f64aa79a6" name="Default" comment="" />
     <ignored path="Patterns.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -723,12 +712,20 @@
       <workItem from="1461843696033" duration="3383000" />
       <workItem from="1461850337229" duration="11534000" />
       <workItem from="1461925791415" duration="2114000" />
-      <workItem from="1462359374578" duration="7905000" />
+      <workItem from="1462359374578" duration="8100000" />
     </task>
+    <task id="LOCAL-00001" summary=" Basic design patterns">
+      <created>1462369878777</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1462369878777</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30200000" />
+    <option name="totallyTimeSpent" value="30395000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1010" extended-state="0" />
